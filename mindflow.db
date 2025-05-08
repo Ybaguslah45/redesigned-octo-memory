@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS mood_log (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    timestamp TEXT,
+    usd_value REAL,
+    notes TEXT
+);
